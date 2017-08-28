@@ -113,7 +113,7 @@ class EisenhowerMatrix extends Component {
             <Panel header={titleThirdQuadrant} className="eisenhower-matrix__panel">
               <ListGroup
                 fill
-                style={{ display: this.state.expandedSecondQuadrant ? 'block' : 'none' }}
+                style={{ display: this.state.expandedThirdQuadrant ? 'block' : 'none' }}
               >
                 <Scrollbars autoHeight autoHeightMax={420}>
                   {cardList('third')}
