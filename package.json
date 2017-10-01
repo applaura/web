@@ -10,7 +10,7 @@
     "lint": "eslint server",
     "start": "node server",
     "develop": "nodemon server --ignore react-ui/ --ignore __test__",
-    "test": "jest",
+    "test": "jest --runInBand",
     "test:watch": "npm test -- --watch",
     "heroku-postbuild": "cd react-ui/ && npm install --only=dev && npm install && npm run build"
   },
